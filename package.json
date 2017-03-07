@@ -1,0 +1,15 @@
+{
+  "name": "Excel2Latex",
+  "version": "0.0.1",
+  "description": "transform Excel tables into LaTeX script",
+  "author": "tc-imba",
+  "dependencies": {
+    "bootstrap": "^3.3.7",
+    "http-server": "^0.9.0",
+    "jquery": "^3.1.1",
+    "xlsx": "^0.8.7"
+  },
+  "scripts": {
+    "start": "http-server -a 0.0.0.0 -p 8008 -c-1 ./"
+  }
+}
